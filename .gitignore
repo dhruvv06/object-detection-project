@@ -1,0 +1,23 @@
+# Ignore the virtual environment
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+.env
+
+# If your weights file is huge, ignore it too:
+*.caffemodel
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore large model weights (MobileNet/YOLO)
+*.weights
+*.h5
+*.prototxt
+
+# Ignore local OS files
+.DS_Store
+Thumbs.db
